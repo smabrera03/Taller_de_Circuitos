@@ -1,0 +1,18 @@
+ERC report (2026-04-15T15:35:07, Encoding UTF8)
+Report includes: Errors
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(4800 mils, 4150 mils): Symbol U1 Pin 3 [+, Entrada, Línea]
+[missing_power_pin]: El símbolo U1 tiene pines de entrada de alimentación en las unidades [ C ] que no están colocados
+    ; error
+    @(5100 mils, 4050 mils): Symbol U1 [LM358]
+
+ ** ERC messages: 2  Errors 2  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
